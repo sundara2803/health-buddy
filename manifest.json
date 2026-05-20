@@ -1,0 +1,12 @@
+{
+  "name": "Health Buddy",
+  "short_name": "Health Buddy",
+  "description": "Your daily health tracking companion",
+  "start_url": "/health-buddy/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6c63ff",
+  "icons": [
+    { "src": "/paw.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
