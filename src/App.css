@@ -1,0 +1,11 @@
+.app { max-width: 480px; margin: 0 auto; min-height: 100vh; background: var(--bg); display: flex; flex-direction: column; }
+.scroll-body { flex: 1; padding-top: 4px; padding-bottom: 32px; }
+.top-bar { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; background: white; border-bottom: 1px solid var(--border); }
+.date-label { font-size: 0.82rem; color: var(--muted); font-weight: 500; }
+.user-info  { display: flex; align-items: center; gap: 8px; }
+.sync-badge { font-size: 0.72rem; color: #15803d; background: #f0fdf4; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+.logout-btn { background: none; border: none; padding: 0; cursor: pointer; }
+.avatar     { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; }
+.loading-screen { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; gap: 12px; }
+.loading-pet { font-size: 3rem; animation: bounce-happy 0.9s ease-in-out infinite alternate; }
+@keyframes bounce-happy { from { transform: translateY(0); } to { transform: translateY(-10px); } }
